@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hide N' Seek</title>
+        <script src="angular.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body ng-app="trialApp">
+        <h1>See this</h1>
+        <div ng-controller="ctrl">
+            <button ng-click="india()">India</button>
+            <button ng-click="abroad()">Abroad</button>
+            <div ng-show="var===0">
+                India India India India India<br>
+                India India India India India<br>
+                India India India India India<br>
+                India India India India India<br>
+                India India India India India<br>
+                India India India India India<br>
+                India India India India India
+            </div>
+            <div ng-show="var===1">
+                Abroad Abroad Abroad Abroad <br>
+                Abroad Abroad Abroad Abroad <br>
+                Abroad Abroad Abroad Abroad <br>
+                Abroad Abroad Abroad Abroad <br>
+                Abroad Abroad Abroad Abroad <br>
+                Abroad Abroad Abroad Abroad <br>
+                Abroad Abroad Abroad Abroad <br>
+                Abroad Abroad Abroad Abroad
+            </div>
+        </div>
+    </body>
+</html>
